@@ -1,6 +1,6 @@
 'use strict';
 
-const mkdirp = require('mkdirp');
+const mkdirp = require('mkdirp-promise');
 const path = require('path');
 const getParents = require('./getParents');
 
